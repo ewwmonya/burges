@@ -1,0 +1,50 @@
+[
+	{
+		"id": 1,
+		"category": "burger",
+		"name": "Classic Cheeseburger",
+		"price": 7.99,
+		"description": "Beef patty, cheddar cheese, lettuce, tomato, pickles, and special sauce",
+		"image": "https://images.unsplash.com/photo-1607013251379-e6eecfffe234?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGJ1cmdlcnN8ZW58MHx8MHx8fDA%3D"
+	},
+	{
+		"id": 2,
+		"category": "burger",
+		"name": "BBQ Bacon Burger",
+		"price": 9.49,
+		"description": "Smoky BBQ sauce, crispy bacon, sharp cheddar, and onion rings",
+		"image": "https://images.unsplash.com/photo-1610440042657-612c34d95e9f?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGJ1cmdlcnN8ZW58MHx8MHx8fDA%3D"
+	},
+	{
+		"id": 3,
+		"category": "hotdog",
+		"name": "Chili Cheese Dog",
+		"price": 5.99,
+		"description": "Beef hotdog topped with chili, melted cheddar, and diced onions",
+		"image": "https://images.unsplash.com/photo-1721648373408-0e3c4402eb6a?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+	},
+	{
+		"id": 4,
+		"category": "hotdog",
+		"name": "Classic Hotdog",
+		"price": 4.49,
+		"description": "All-beef hotdog with mustard, ketchup, and relish on a toasted bun",
+		"image": "https://images.unsplash.com/photo-1515875976234-9d59c3ef288d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+	},
+	{
+		"id": 5,
+		"category": "fries",
+		"name": "Shoestring Fries",
+		"price": 2.99,
+		"description": "Thin and crispy, lightly salted. Need we say more? these are fresh cut never frozen",
+		"image": "https://images.unsplash.com/photo-1599975744981-48d63c8f38af?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fExvYWRlZCUyMEZyaWVzfGVufDB8fDB8fHww"
+	},
+	{
+		"id": 6,
+		"category": "fries",
+		"name": "Loaded Fries",
+		"price": 4.99,
+		"description": "Fries topped with cheese, bacon bits, and ranch drizzle",
+		"image": "https://images.unsplash.com/photo-1666304752980-678d5c35c911?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8TG9hZGVkJTIwRnJpZXN8ZW58MHx8MHx8fDA%3D"
+	}
+]
