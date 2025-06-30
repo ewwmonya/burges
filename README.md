@@ -1,5 +1,13 @@
 # BURGS 🍔 — Static Restaurant Mock Site
 
+## Working On
+
+**Menu**
+
+- text squished in mobile.
+  **Weird back and forth scroll**
+- create clean scroll for small devices
+
 **Built Brick by Brick.**  
 A stylish, mobile-ready, and business-focused mock site for a fictional burger joint. Designed and developed by Monya to showcase client-facing frontend skills, branding, and modern design thinking.
 
