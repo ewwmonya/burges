@@ -24,7 +24,7 @@ const Homepage = () => {
 			<Hero text={`Burgers In The Hood`} />
 			<section className='max-w-[960px] mx-auto  '>
 				<h2 className='text-2xl my-4 px-4'>Town Favorites</h2>
-				<ul className='menu menu-horizontal w-full gap-4 grid lg:flex grid-cols-2 flex-nowrap justify-center'>
+				<ul className='menu menu-horizontal w-full grid lg:flex grid-cols-2 flex-nowrap justify-center'>
 					{main.map((item) => {
 						return (
 							<li key={item.id} className=' menu menu-horizontal'>
