@@ -2,7 +2,7 @@ function MenuItem({ item }) {
 	const { category, name, price, description, image } = item;
 	return (
 		<>
-			<div className='card bg-base-200 lg:w-60 w-55 shadow-md'>
+			<div className='card bg-base-200 lg:w-60 w-44 shadow-md'>
 				<figure className='overflow-hidden aspect-square max-h-[200px]'>
 					<img src={image} alt='Shoes' />
 				</figure>
