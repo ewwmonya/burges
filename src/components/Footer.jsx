@@ -15,10 +15,10 @@ const Footer = () => {
 					<p>Providing reliable eats since 2009</p>
 					<ul className='menu bg-base-200 rounded-box w-56'>
 						<li>
-							<a>BreakFast</a>
+							<a href='#breakfast'>BreakFast</a>
 						</li>
 						<li>
-							<a>Lucnh</a>
+							<a href='#lunch'>Lucnh</a>
 						</li>
 						<li>
 							<p className=' font-bold tracking-wide'>

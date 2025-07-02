@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router';
 import { RiAlignJustify } from 'react-icons/ri';
 import NavMenu from './NavMenu';
+import Links from './Links';
 
 const Navbar = () => {
 	return (
@@ -18,22 +19,14 @@ const Navbar = () => {
 				</div>
 				<div className='navbar-end flex lg:hidden'>
 					<div className='dropdown lg:hidden'>
-						<button tabIndex={0} className='btn btn-ghost'>
+						<button tabIndex={0} className='btn btn-link  hover:bg-none'>
 							<RiAlignJustify className='w-12 h-12' />
 						</button>
 						<ul
 							tabIndex={0}
 							className='p-8 menu dropdown-content gap-y-4 bg-base-200 z-[1] w-[40vw] min-h-[100vh] right-0'
 						>
-							<li>
-								<button className='btn btn-ghost text-lg'>Breakfast</button>
-							</li>
-							<li>
-								<button className='btn btn-ghost text-lg'>Lunch</button>
-							</li>
-							<li>
-								<button className='btn btn-ghost text-lg'>About Us</button>
-							</li>
+							<Links />
 						</ul>
 					</div>
 				</div>

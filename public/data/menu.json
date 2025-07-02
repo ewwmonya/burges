@@ -46,5 +46,29 @@
 		"price": 4.99,
 		"description": "Fries topped with cheese, bacon bits, and ranch drizzle",
 		"image": "https://images.unsplash.com/photo-1666304752980-678d5c35c911?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8TG9hZGVkJTIwRnJpZXN8ZW58MHx8MHx8fDA%3D"
+	},
+	{
+		"id": 7,
+		"category": "breakfast",
+		"name": "Bacon, Egg & Cheese Biscuit",
+		"price": 4.99,
+		"description": "Fluffy biscuit stacked with bacon, egg, and melted cheese",
+		"image": "/assets/breakfast-biscuit.png"
+	},
+	{
+		"id": 8,
+		"category": "breakfast",
+		"name": "Pancake Platter",
+		"price": 6.99,
+		"description": "Three golden pancakes, syrup, butter, and a side of sausage",
+		"image": "/assets/pancake-platter.png"
+	},
+	{
+		"id": 9,
+		"category": "breakfast",
+		"name": "Breakfast Burrito",
+		"price": 5.99,
+		"description": "Eggs, cheese, potatoes, sausage, and salsa wrapped in a warm tortilla",
+		"image": "/assets/breakfast-burrito.png"
 	}
 ]
