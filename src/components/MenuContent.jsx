@@ -3,20 +3,21 @@ const MenuContent = ({ menu }) => {
 		<>
 			<li
 				key={menu.id}
-				className='list-row bg-base-200 lg:flex justify-center gap-x-8'
+				className='bg-amber-500 list-row  lg:flex justify-center gap-x-8'
 			>
 				<div>
 					<img className='size-40 rounded-box' src={menu.image} />
 				</div>
-				<div>
-					<div>{menu.name}</div>
-					<div className='text-xs uppercase font-semibold opacity-60'>
+				<div className='flex flex-col'>
+					<p className='text-lg'>{menu.name}</p>
+					<p className='text-lg lg:text-xs uppercase font-semibold opacity-60'>
 						{menu.category}
-					</div>
+					</p>
+
+					<button className='place-self-end-safe rounded-full bg-gray-800 w-20 h-20 text-2xl cursor-default text-[#FFF248] shadow-sm shadow-black'>
+						${menu.price}
+					</button>
 				</div>
-				<button className='rounded-full bg-gray-800 w-20 h-20 text-2xl cursor-default text-[#FFF248] shadow-sm shadow-black'>
-					${menu.price}
-				</button>
 			</li>
 		</>
 	);
